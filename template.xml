@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <Item class="Environment">
+        <Properties>
+            <string name="name">Environment</string>
+        </Properties>
+    </Item>
+    <Item class="ScriptService">
+        <Properties>
+            <string name="name">ScriptService</string>
+        </Properties>
+    </Item>
+</game>
