@@ -48,7 +48,7 @@ def add_part(item):
             "Y": Y,
             "Z": Z
         },
-        "Orientation": {
+        "Rotation": {
             "X": rx,
             "Y": ry,
             "Z": rz
