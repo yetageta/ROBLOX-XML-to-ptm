@@ -55,7 +55,7 @@ for part in parts:
 
     color = ElementTree.SubElement(properties, "string")
     color.attrib = {"name": "color"}
-    color.text = "#000000"
+    color.text = "#" + part["Colour"]
 
     shape = ElementTree.SubElement(properties, "string")
     shape.attrib = {"name": "shape"}

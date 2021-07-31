@@ -41,6 +41,10 @@ def add_part(item):
 
     sX, sY, sZ = float(SizeChildren[0].text), float(SizeChildren[1].text), float(SizeChildren[2].text)
 
+    colour = int(p["Color3uint8"].text)
+
+    colour = hex(colour)[4:]
+
     workspaceParts.append({
         "element": item,
         "Position": {
@@ -57,8 +61,8 @@ def add_part(item):
             "X": sX,
             "Y": sY,
             "Z": sZ
-        }
-
+        },
+        "Colour": colour
     })
 
 def convert():
